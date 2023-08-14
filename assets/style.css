@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+	font-family: 'Robot', sans-serif;
+}
+
+.bg-red {
+	background: #780000;
+}
+
+.bg-red-alt {
+	background: #C1121F;
+}
+
+.text-red {
+	color: #780000;
+}
+
+.border-red {
+	border-color: #780000 !important;
+}
+
+.nav-link {
+	color: #fff;
+	border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+	color: #FEA324 !important;
+	border-bottom: 2px solid #fff;
+}
+
+
+.btn-search {
+	background: #F0AA51;
+	color: #333;
+}
+
+.btn-search:hover, .btn-search:active{
+	background: #FEA324 !important;
+	color: #111;
+}
+
+a {
+	text-decoration: none;
+}
+
+.owl-nav button.owl-prev {
+	color: #780000 !important;
+	position: absolute;
+	left: -1rem;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 2rem !important;
+}
+
+.owl-nav button.owl-next {
+	color: #780000 !important;
+	position: absolute;
+	right: -1rem;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 2rem !important;
+}
