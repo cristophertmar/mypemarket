@@ -62,3 +62,8 @@ a {
 	transform: translateY(-50%);
 	font-size: 2rem !important;
 }
+
+img.card-img-top {
+	height: 250px;
+    object-fit: cover;
+}
